@@ -1,6 +1,6 @@
-import init, {greet} from "./pkg/harp.js";
+import init, * as harp from "./pkg/harp.js";
 async function run() {
     await init();
-    greet();
+    harp.greet();
 }
 run();

@@ -1,0 +1,20 @@
+{
+    "tasks": [
+        {
+            "label": "Compile wasm",
+            "type": "shell",
+            "command": "wasm-pack",
+            "args": [
+                "build",
+                "--no-typescript",
+                "--target",
+                "web"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
